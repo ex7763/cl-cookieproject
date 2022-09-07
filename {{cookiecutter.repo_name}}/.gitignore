@@ -37,3 +37,11 @@ tramp
 
 # cask packages
 .cask/
+
+### osx ###
+.DS_Store
+
+### vim ###
+*~
+*.swp
+*.swo

@@ -29,16 +29,6 @@ A POC script is in the roswell/ directory.
 
 Your users can install the script with `{{ cookiecutter.username }}/{{ cookiecutter.project_name }}`.
 
-
-# Docs
-```
-### Install docsify
-npm i docsify-cli -g
-
-### Preview
-docsify serve docs
-```
-
 # Dev
 
 Tests are defined with [Fiveam](https://common-lisp.net/project/fiveam/docs/).

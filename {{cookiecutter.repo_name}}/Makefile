@@ -1,4 +1,5 @@
-LISP ?= sbcl
+.PHONY: docs
+LISP ?= ros run
 
 all: test
 
@@ -14,3 +15,6 @@ build:
 test:
 	$(LISP) --non-interactive \
 		--load run-tests.lisp
+
+docs:
+	docsify serve docs

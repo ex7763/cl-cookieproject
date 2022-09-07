@@ -152,4 +152,4 @@ The first time you run `cookiecutter` with a link to a GitHub repository, the sk
 
 ---
 
-Acknowledgement: we forked [cookiecutter-cl](https://github.com/hbristow/cookiecutter-cl).
+Acknowledgement: we forked [cookiecutter-cl](https://github.com/hbristow/cookiecutter-cl) and [cl-cookieproject](https://github.com/vindarel/cl-cookieproject).

@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: default 
+
+steps:
+- name: lisp-env
+  image: fukamachi/roswell
+  commands:
+    - ros run --eval '(write "Hello World") (quit)'
